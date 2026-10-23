@@ -1,0 +1,404 @@
+{
+  "schema_version": 1,
+  "inventory_snapshot_at": "2026-10-23T17:29:24.153925+08:00",
+  "editorial_scope": "Curated historical mathematical excerpts and English educational run summaries. No proof re-audit, computation replay, or proof-status upgrade.",
+  "file_count_convention": "Top-level .md files in deep_reading/ and runs/, excluding README.md. Includes historical/draft/superseded/pointer files; not counts of accepted work, theorems, solved exercises, or unique sessions.",
+  "inventory_totals": {
+    "deep_reading": 2399,
+    "runs": 1476
+  },
+  "cases": [
+    {
+      "case_id": "APOSTOL-N1",
+      "kind": "mathematical_excerpt",
+      "public_path": "case-studies/other-lanes/apostol-01-partition-mechanisms.md",
+      "source_record_basename": "2026-06-30-ramanujan-modular-theta-context.md",
+      "source_sha256": "74d730f561ad4224a8d2fadc79e3006ce4acf6220ec045d09e2b1cd1a3666005",
+      "source_date": "2026-06-30",
+      "source_line_ranges": [
+        [
+          13,
+          31
+        ],
+        [
+          113,
+          133
+        ]
+      ],
+      "language": "English preface; original Chinese/English mathematical excerpts",
+      "proof_reverified": false
+    },
+    {
+      "case_id": "APOSTOL-N2",
+      "kind": "mathematical_excerpt",
+      "public_path": "case-studies/other-lanes/apostol-02-perron-interchange-boundary.md",
+      "source_record_basename": "2026-07-01-perron-mellin-dominated-fubini-boundary.md",
+      "source_sha256": "46a13d4f349237b081bdf64d93a173d6c48f59cd1a65453fc218295470ee1565",
+      "source_date": "2026-07-01",
+      "source_line_ranges": [
+        [
+          7,
+          32
+        ]
+      ],
+      "language": "English preface; original Chinese/English mathematical excerpts",
+      "proof_reverified": false
+    },
+    {
+      "case_id": "STEIN-N1",
+      "kind": "mathematical_excerpt",
+      "public_path": "case-studies/other-lanes/stein-01-energy-and-global-coordinate-error.md",
+      "source_record_basename": "2026-10-13-energy-rigidity-and-global-coordinate-failure.md",
+      "source_sha256": "1eab8fad97d2798b3a8ed18747f05d8f2ef0fcf5baf5dc6a1b808cf9fff1f650",
+      "source_date": "2026-10-13",
+      "source_line_ranges": [
+        [
+          33,
+          100
+        ]
+      ],
+      "language": "English preface; original Chinese/English mathematical excerpts",
+      "proof_reverified": false
+    },
+    {
+      "case_id": "STEIN-N2",
+      "kind": "mathematical_excerpt",
+      "public_path": "case-studies/other-lanes/stein-02-affine-monodromy-order.md",
+      "source_record_basename": "2026-10-14-elliptic-affine-monodromy-order-guard.md",
+      "source_sha256": "15b4ec36fbcd6279035036d903bc33560a2d305bfadfa2052d081705d73b714b",
+      "source_date": "2026-10-14",
+      "source_line_ranges": [
+        [
+          21,
+          41
+        ]
+      ],
+      "language": "English preface; original Chinese/English mathematical excerpts",
+      "proof_reverified": false
+    },
+    {
+      "case_id": "COHEN-N1",
+      "kind": "mathematical_excerpt",
+      "public_path": "case-studies/other-lanes/cohen-01-heegner-certification.md",
+      "source_record_basename": "2026-10-15-ch8-heegner-algorithm-certification.md",
+      "source_sha256": "d7915443c03a9cda5e906092726daf88b17e9b9583bd1d80b55c1f7327a454e0",
+      "source_date": "2026-10-15",
+      "source_line_ranges": [
+        [
+          3,
+          5
+        ],
+        [
+          15,
+          35
+        ]
+      ],
+      "language": "English preface; original Chinese/English mathematical excerpts",
+      "proof_reverified": false
+    },
+    {
+      "case_id": "COHEN-N2",
+      "kind": "mathematical_excerpt",
+      "public_path": "case-studies/other-lanes/cohen-02-fixed-divisor-caveat.md",
+      "source_record_basename": "2026-10-15-ch8-quartic-fixed-divisor-caveat.md",
+      "source_sha256": "8afefc090a4f9e6a2cec4d2a3ae82d407e5c7a58bfa973288d15393064e9635a",
+      "source_date": "2026-10-15",
+      "source_line_ranges": [
+        [
+          17,
+          35
+        ]
+      ],
+      "language": "English preface; original Chinese/English mathematical excerpts",
+      "proof_reverified": false
+    },
+    {
+      "case_id": "DIEUDONNE-N1",
+      "kind": "mathematical_excerpt",
+      "public_path": "case-studies/other-lanes/dieudonne-01-correlated-rounding-penalty.md",
+      "source_record_basename": "chapter_15_euler_second_finite_gap_amplitude_penalty.md",
+      "source_sha256": "82be6de4abeec07073d6db0c17d333fb347e8c5d03f92e702d1c8f4212ff1e81",
+      "source_date": "2026-10-12",
+      "source_line_ranges": [
+        [
+          11,
+          67
+        ]
+      ],
+      "language": "English preface; original Chinese/English mathematical excerpts",
+      "proof_reverified": false
+    },
+    {
+      "case_id": "DIEUDONNE-N2",
+      "kind": "mathematical_excerpt",
+      "public_path": "case-studies/other-lanes/dieudonne-02-boundary-input-interior-output.md",
+      "source_record_basename": "chapter_15_euler_second_boundary_torus_interior.md",
+      "source_sha256": "f1c96c4fa0946250ee1c3b6f827427ca4ec693b385edef1b7879bbe9a8eed8fd",
+      "source_date": "2026-10-07",
+      "source_line_ranges": [
+        [
+          14,
+          49
+        ],
+        [
+          99,
+          101
+        ]
+      ],
+      "language": "English preface; original Chinese/English mathematical excerpts",
+      "proof_reverified": false
+    },
+    {
+      "case_id": "SERRE-N1",
+      "kind": "mathematical_excerpt",
+      "public_path": "case-studies/other-lanes/serre-01-equal-index-different-quotients.md",
+      "source_record_basename": "2026-10-07-ch8-marked-quotient-equal-index-counterexample.md",
+      "source_sha256": "50e2f897a6ba04fb5183bcdc8cd7853e334207c9c1b21356de0d6030a9e413d9",
+      "source_date": "2026-10-07",
+      "source_line_ranges": [
+        [
+          3,
+          17
+        ]
+      ],
+      "language": "English preface; original Chinese/English mathematical excerpts",
+      "proof_reverified": false
+    },
+    {
+      "case_id": "SERRE-N2",
+      "kind": "mathematical_excerpt",
+      "public_path": "case-studies/other-lanes/serre-02-raw-joint-bounded-scope.md",
+      "source_record_basename": "2026-10-15-ch8-gap-six-raw-joint-attempt.md",
+      "source_sha256": "bccb603aff608cfe1ec0ae068169e596c911c1cf965e0b8b0968f942e6929f3a",
+      "source_date": "2026-10-15",
+      "source_line_ranges": [
+        [
+          3,
+          15
+        ],
+        [
+          27,
+          35
+        ]
+      ],
+      "language": "English preface; original Chinese/English mathematical excerpts",
+      "proof_reverified": false
+    },
+    {
+      "case_id": "LANG-N1",
+      "kind": "mathematical_excerpt",
+      "public_path": "case-studies/other-lanes/lang-01-colon-specialization.md",
+      "source_record_basename": "2026-10-05-xvii7-five-nine-tensor-specialization.md",
+      "source_sha256": "519340f2d90a515aa821cfe634fe72473a3ac435ba2df9a780ed838bf502987a",
+      "source_date": "2026-10-05",
+      "source_line_ranges": [
+        [
+          3,
+          5
+        ],
+        [
+          55,
+          101
+        ]
+      ],
+      "language": "English preface; original Chinese/English mathematical excerpts",
+      "proof_reverified": false
+    },
+    {
+      "case_id": "LANG-N2",
+      "kind": "mathematical_excerpt",
+      "public_path": "case-studies/other-lanes/lang-02-action-dependent-tensor-sections.md",
+      "source_record_basename": "2026-10-05-xvii7-nonmonomial-ideal-tensor.md",
+      "source_sha256": "456d981a3a51455f9eca868dad86e84502a6caa77e976f97e0c66a1b2757c8c4",
+      "source_date": "2026-10-05",
+      "source_line_ranges": [
+        [
+          3,
+          5
+        ],
+        [
+          85,
+          142
+        ]
+      ],
+      "language": "English preface; original Chinese/English mathematical excerpts",
+      "proof_reverified": false
+    },
+    {
+      "case_id": "BRUALDI-N1",
+      "kind": "mathematical_excerpt",
+      "public_path": "case-studies/other-lanes/brualdi-01-negative-association-boundaries.md",
+      "source_record_basename": "chapter02-section2.3-weighted-layers-negative-association.md",
+      "source_sha256": "582f4491242c5846e512a06e63c098555d59652659b36791bae43962a3575a98",
+      "source_date": "recorded in the source metadata",
+      "source_line_ranges": [
+        [
+          3,
+          5
+        ],
+        [
+          65,
+          100
+        ],
+        [
+          133,
+          148
+        ]
+      ],
+      "language": "English preface; original Chinese/English mathematical excerpts",
+      "proof_reverified": false
+    },
+    {
+      "case_id": "BRUALDI-N2",
+      "kind": "mathematical_excerpt",
+      "public_path": "case-studies/other-lanes/brualdi-02-counting-fibers-and-boxes.md",
+      "source_record_basename": "chapter02-section2.5-count-box-synthesis.md",
+      "source_sha256": "be8f9eeccb7e8e2ed16940328fac2c9337af74c08c3aad887840eda50f1db654",
+      "source_date": "recorded in the source metadata",
+      "source_line_ranges": [
+        [
+          3,
+          6
+        ],
+        [
+          103,
+          158
+        ]
+      ],
+      "language": "English preface; original Chinese/English mathematical excerpts",
+      "proof_reverified": false
+    },
+    {
+      "case_id": "APOSTOL-R1",
+      "kind": "english_run_summary",
+      "public_path": "case-studies/other-lanes/apostol-run-history.md",
+      "source_record_basename": "2026-07-11-1718.md",
+      "source_sha256": "d172d8836776f8ab296b823632b93a9c25b42c9814ebf3f68ab42e10cd536a6a",
+      "source_date": "2026-07-11",
+      "language": "English educational summary",
+      "proof_reverified": false
+    },
+    {
+      "case_id": "STEIN-R1",
+      "kind": "english_run_summary",
+      "public_path": "case-studies/other-lanes/stein-run-history.md",
+      "source_record_basename": "2026-10-15-1915.md",
+      "source_sha256": "71cf72e9a1d0f3d0eb88cc46d479ea024c405c74f0afeb9fced46b67020a0f70",
+      "source_date": "2026-10-15",
+      "language": "English educational summary",
+      "proof_reverified": false
+    },
+    {
+      "case_id": "COHEN-R1",
+      "kind": "english_run_summary",
+      "public_path": "case-studies/other-lanes/cohen-run-history.md",
+      "source_record_basename": "2026-10-15-1906.md",
+      "source_sha256": "2e88af99f3f8b9375ce02476eaf9913577dc94d41083b68dc2f0c46327d1f4ee",
+      "source_date": "2026-10-15",
+      "language": "English educational summary",
+      "proof_reverified": false
+    },
+    {
+      "case_id": "DIEUDONNE-R1",
+      "kind": "english_run_summary",
+      "public_path": "case-studies/other-lanes/dieudonne-run-history.md",
+      "source_record_basename": "2026-10-23-1507.md",
+      "source_sha256": "d8fa5c09f20465bdb868bf5fb8bde8fe4d2c252f43430cfba2a3bea9a2fa2c56",
+      "source_date": "2026-10-23",
+      "language": "English educational summary",
+      "proof_reverified": false
+    },
+    {
+      "case_id": "SERRE-R1",
+      "kind": "english_run_summary",
+      "public_path": "case-studies/other-lanes/serre-run-history.md",
+      "source_record_basename": "2026-10-15-1911.md",
+      "source_sha256": "5ba49a17306444f4dea84207e75d50f108912b9549eb394ea97d5e31910d0b64",
+      "source_date": "2026-10-15",
+      "language": "English educational summary",
+      "proof_reverified": false
+    },
+    {
+      "case_id": "LANG-R1",
+      "kind": "english_run_summary",
+      "public_path": "case-studies/other-lanes/lang-run-history.md",
+      "source_record_basename": "2026-10-05-0214.md",
+      "source_sha256": "81f0e9dbf1b21f48012236b7af66972f3893af3c8f87c999d0d7b72e808407b4",
+      "source_date": "2026-10-05",
+      "language": "English educational summary",
+      "proof_reverified": false
+    },
+    {
+      "case_id": "BRUALDI-R1",
+      "kind": "english_run_summary",
+      "public_path": "case-studies/other-lanes/brualdi-run-history.md",
+      "source_record_basename": "2026-10-05-0106.md",
+      "source_sha256": "4f6b8abc526feab7de5f4a7ac9cb69525f9748efbabb3137f2b7efb2bf348093",
+      "source_date": "2026-10-05",
+      "language": "English educational summary",
+      "proof_reverified": false
+    }
+  ],
+  "provenance_reference_edits": [
+    {
+      "case_id": "COHEN-N1",
+      "kind": "unbundled-wiki-reference",
+      "source_record": "2026-10-15-ch8-heegner-forms-and-trace"
+    },
+    {
+      "case_id": "DIEUDONNE-N1",
+      "kind": "unbundled-wiki-reference",
+      "source_record": "chapter_15_euler_second_balanced_finite_precision"
+    },
+    {
+      "case_id": "DIEUDONNE-N1",
+      "kind": "unbundled-wiki-reference",
+      "source_record": "chapter_15_euler_second_root_secant_and_dephased_kernel"
+    },
+    {
+      "case_id": "DIEUDONNE-N2",
+      "kind": "unbundled-wiki-reference",
+      "source_record": "chapter_15_euler_second_true_support_phase_certificate"
+    },
+    {
+      "case_id": "DIEUDONNE-N2",
+      "kind": "unbundled-wiki-reference",
+      "source_record": "chapter_15_euler_second_true_support_geometry"
+    },
+    {
+      "case_id": "DIEUDONNE-N2",
+      "kind": "unbundled-wiki-reference",
+      "source_record": "chapter_15_euler_second_boundary_depth_and_inward_fiber"
+    },
+    {
+      "case_id": "DIEUDONNE-N2",
+      "kind": "unbundled-wiki-reference",
+      "source_record": "2026-10-07-1504"
+    },
+    {
+      "case_id": "SERRE-N1",
+      "kind": "unbundled-wiki-reference",
+      "source_record": "2026-10-07-ch8-fifth-raw-joint-image"
+    },
+    {
+      "case_id": "SERRE-N1",
+      "kind": "unbundled-wiki-reference",
+      "source_record": "2026-10-07-ch8-gap-four-fourfold-marked-completion"
+    },
+    {
+      "case_id": "SERRE-N2",
+      "kind": "unbundled-wiki-reference",
+      "source_record": "2026-10-14-ch8-source188-general-outer-mixed"
+    },
+    {
+      "case_id": "BRUALDI-N1",
+      "kind": "unbundled-markdown-reference",
+      "source_record": "chapter02-section2.3-complement-layers-parity-synthesis.md"
+    },
+    {
+      "case_id": "BRUALDI-N2",
+      "kind": "unbundled-wiki-reference",
+      "source_record": "2026-10-05-0106"
+    }
+  ]
+}
