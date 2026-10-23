@@ -10,7 +10,7 @@ The aim is to help students and researchers build a reusable record of understan
 
 - [Marcus and Neukirch: 12 complete English mathematical case studies](case-studies/marcus-neukirch/INDEX.md), spanning algebraic integers, local fields, class field theory, zeta functions and prime distribution.
 - [Seven other study lanes](docs/OTHER_LANES.md), with 14 mathematical excerpts and seven educational run histories: Apostol, Stein–Shakarchi, Cohen, Dieudonné, Serre, Lang and Brualdi.
-- [Public English study archive](https://github.com/taonokenshin/MathReadingVault/releases/tag/study-edition-2026-10-20): 1,152 mathematical articles and 1,124 normalized session records, in textbook order, from the 20 October 2026 snapshot. File counts include drafts and historical corrections; they are not theorem or proof counts.
+- [Public English study archive](downloads/README.md): 1,152 mathematical articles and 1,124 normalized session records, in textbook order, from the 20 October 2026 snapshot. File counts include drafts and historical corrections; they are not theorem or proof counts.
 
 The repository offers English guides and English Marcus/Neukirch articles. Additional original Chinese excerpts have detailed English introductions. The recipient is free to choose their own primary book, topic, pace and rigor.
 
