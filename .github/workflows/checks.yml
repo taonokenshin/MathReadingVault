@@ -1,0 +1,19 @@
+name: Isolated toolkit checks
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - name: Controller tests
+        run: python3 -m unittest discover -s tools -p 'test_manual_batch_control.py' -v
+      - name: Disposable synthetic demonstration
+        run: python3 examples/synthetic-control/smoke_demo.py
+      - name: Public text and file checks
+        run: python3 tools/check_public_release.py .
