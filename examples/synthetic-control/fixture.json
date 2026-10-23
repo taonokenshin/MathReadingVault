@@ -1,0 +1,15 @@
+{
+  "description": "Synthetic data only. Tokens are substituted by smoke_demo.py inside a new TemporaryDirectory. This is not an installed automation.",
+  "automation": {
+    "version": 1,
+    "id": "__AUTOMATION_ID__",
+    "kind": "cron",
+    "name": "Synthetic reading controller demonstration",
+    "prompt": "No mathematical work; demonstrate local control transitions only.",
+    "status": "PAUSED",
+    "updated_at": 100
+  },
+  "activation_updated_at": 200,
+  "owner_identity": "synthetic-example-owner",
+  "competing_identity": "synthetic-example-competitor"
+}
