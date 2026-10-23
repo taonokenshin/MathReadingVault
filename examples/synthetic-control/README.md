@@ -1,0 +1,5 @@
+# Synthetic controller demonstration
+
+Run `python3 examples/synthetic-control/smoke_demo.py` from the repository root. The script creates a temporary vault and automation directory, substitutes one historical lane name from the unchanged controller specification, initializes a paused fixture, simulates activation, claims it, sends a heartbeat, checks that a different synthetic owner cannot claim the same lane, and aborts without credit. It then checks that the lock is absent and the completed count remains zero.
+
+The fixture contains no copied runtime, account identity, session record or real automation configuration. Its `kind = "cron"` field is inert test data: no scheduler is contacted or registered. The script supplies both roots explicitly on every invocation and uses synthetic task identities only in child processes. All temporary state is removed on exit. A successful run prints one summary JSON object. It does not demonstrate mathematical progress or a completed fifty-minute occurrence; the existing unit suite simulates timing boundaries separately.
