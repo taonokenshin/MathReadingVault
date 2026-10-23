@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.local-automations/
+Infrastructure/*runtime/
+Infrastructure/source_cache/
+library.yml
+*.pdf
+*.png
+*.jpg
+.env
+.env.*
+*.pem
+*.key
+private_application/
+releases/
