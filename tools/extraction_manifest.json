@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-23",
+  "python_tested": "3.9.6",
+  "scope": "Copied scripts and tests; controller logic and historical lane specs preserved. No live runtime copied.",
+  "files": [
+    {
+      "file": "tools/manual_batch_control.py",
+      "source_sha256": "5888dceb5d4b55f01792dce9fb0f552be7e0213e6d1d4f7d7e54c69d09c60127",
+      "public_sha256": "0e9b536ce0bb977480e6bd3e1bc07e98eb7004cb09a98ec86668b3c96402352d",
+      "adapted_top_level_names": [
+        "DEFAULT_AUTOMATIONS_ROOT",
+        "DEFAULT_VAULT_ROOT",
+        "REPOSITORY_ROOT"
+      ],
+      "ast_identical_except_listed_assignments": true,
+      "byte_identical_to_source": false
+    },
+    {
+      "file": "tools/source_window.py",
+      "source_sha256": "611ad4e00dd9be960000e902bdcb08627f74a0813af0f622ea2069189faaf045",
+      "public_sha256": "6346d94297933a5a60b27853f057cdb43207f360ee0e2a9b9d3ce5f2a810d628",
+      "adapted_top_level_names": [
+        "VAULT_ROOT"
+      ],
+      "ast_identical_except_listed_assignments": true,
+      "byte_identical_to_source": false
+    },
+    {
+      "file": "tools/check_obsidian_math.py",
+      "source_sha256": "729e41e265620a99932cbcdbc524e6fccaafe0cdad48c3e480c9f64b54ee4833",
+      "public_sha256": "014ae17caa19686537952712b80943e2c123874c3546f8a33390702ae2b730fb",
+      "adapted_top_level_names": [
+        "DEFAULT_VAULT"
+      ],
+      "ast_identical_except_listed_assignments": true,
+      "byte_identical_to_source": false
+    },
+    {
+      "file": "tools/test_manual_batch_control.py",
+      "source_sha256": "f333a6dd706825a1e93976e722541b2ba0e7969723d011d61bdab7c436bdd85f",
+      "public_sha256": "f333a6dd706825a1e93976e722541b2ba0e7969723d011d61bdab7c436bdd85f",
+      "adapted_top_level_names": [],
+      "ast_identical_except_listed_assignments": true,
+      "byte_identical_to_source": true
+    }
+  ]
+}

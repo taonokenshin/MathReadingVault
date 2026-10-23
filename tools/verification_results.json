@@ -1,0 +1,60 @@
+{
+  "scope": "Local public extraction only; synthetic/tempfile execution, no live vault or automation access.",
+  "checks": [
+    {
+      "command": [
+        "python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tools",
+        "-p",
+        "test_manual_batch_control.py",
+        "-v"
+      ],
+      "returncode": 0,
+      "stderr": "test_absolute_lease_expires_even_with_recent_heartbeat (test_manual_batch_control.ManualBatchControlTests) ... ok\ntest_all_reading_specs_use_fifty_minute_mathematics_budget (test_manual_batch_control.ManualBatchControlTests) ... ok\ntest_claim_binds_owner_to_current_codex_thread (test_manual_batch_control.ManualBatchControlTests) ... ok\ntest_claimed_minimum_stays_frozen_until_completion (test_manual_batch_control.ManualBatchControlTests) ... ok\ntest_combinatorics_short_occurrence_cannot_be_counted (test_manual_batch_control.ManualBatchControlTests) ... ok\ntest_completed_six_history_waits_for_explicit_reactivation (test_manual_batch_control.ManualBatchControlTests) ... ok\ntest_delayed_owner_heartbeat_self_expires_noncounted (test_manual_batch_control.ManualBatchControlTests) ... ok\ntest_expired_pause_lease_authorizes_one_retry (test_manual_batch_control.ManualBatchControlTests) ... ok\ntest_final_user_credit_requires_pause (test_manual_batch_control.ManualBatchControlTests) ... ok\ntest_fresh_activation_claims_and_completes_one_hour_batch (test_manual_batch_control.ManualBatchControlTests) ... ok\ntest_fresh_claims_reject_less_than_fifty_minutes_on_every_lane (test_manual_batch_control.ManualBatchControlTests) ... ok\ntest_fresh_heartbeat_prevents_recovery_within_lease (test_manual_batch_control.ManualBatchControlTests) ... ok\ntest_initialization_rejects_active_automation_without_writing (test_manual_batch_control.ManualBatchControlTests) ... ok\ntest_lang_batch_requires_twelve_qualified_occurrences (test_manual_batch_control.ManualBatchControlTests) ... ok\ntest_lang_short_occurrence_cannot_be_counted (test_manual_batch_control.ManualBatchControlTests) ... ok\ntest_legacy_inflight_timing_contract_is_not_extended_or_rejected (test_manual_batch_control.ManualBatchControlTests) ... ok\ntest_legacy_ninth_owner_continues_to_twelve_without_migration_heartbeat (test_manual_batch_control.ManualBatchControlTests) ... ok\ntest_legacy_running_owner_adopts_twelve_without_reset_or_interruption (test_manual_batch_control.ManualBatchControlTests) ... ok\ntest_legacy_six_owner_adopts_twelve_without_reset (test_manual_batch_control.ManualBatchControlTests) ... ok\ntest_legacy_sixth_completion_continues_to_twelve (test_manual_batch_control.ManualBatchControlTests) ... ok\ntest_main_batch_continues_after_nonterminal_completion (test_manual_batch_control.ManualBatchControlTests) ... ok\ntest_new_paused_lane_initialization_then_twelve_counted_occurrences (test_manual_batch_control.ManualBatchControlTests) ... ok\ntest_no_fresh_activation_does_not_start (test_manual_batch_control.ManualBatchControlTests) ... ok\ntest_old_thread_cannot_complete_replacement_claim (test_manual_batch_control.ManualBatchControlTests) ... ok\ntest_orphan_runtime_recovery_exits_before_reclaim (test_manual_batch_control.ManualBatchControlTests) ... ok\ntest_pause_lease_suppresses_duplicate_hourly_pause_request (test_manual_batch_control.ManualBatchControlTests) ... ok\ntest_paused_legacy_history_is_preserved_until_user_reactivation (test_manual_batch_control.ManualBatchControlTests) ... ok\ntest_protocol_version_change_rejects_old_owner (test_manual_batch_control.ManualBatchControlTests) ... ok\ntest_sanitize_history_removes_durable_claim_tokens (test_manual_batch_control.ManualBatchControlTests) ... ok\ntest_silent_owner_is_recovered_at_next_hour (test_manual_batch_control.ManualBatchControlTests) ... ok\ntest_six_target_is_not_accepted_by_unrelated_lanes (test_manual_batch_control.ManualBatchControlTests) ... ok\ntest_stale_administrative_lock_does_not_replace_interruption (test_manual_batch_control.ManualBatchControlTests) ... ok\ntest_stale_lock_is_recovered_without_thread_listing (test_manual_batch_control.ManualBatchControlTests) ... ok\ntest_target_compatibility_is_limited_to_known_main_targets (test_manual_batch_control.ManualBatchControlTests) ... ok\ntest_twelve_hour_combinatorics_batch_requires_twelve_long_occurrences (test_manual_batch_control.ManualBatchControlTests) ... ok\ntest_twelve_occurrence_lanes_stop_and_do_not_claim_thirteenth (test_manual_batch_control.ManualBatchControlTests) ... ok\ntest_user_credit_does_not_disturb_existing_lock_or_current_occurrence (test_manual_batch_control.ManualBatchControlTests) ... ok\ntest_user_credit_is_audited_idempotent_and_preserves_interruption (test_manual_batch_control.ManualBatchControlTests) ... ok\ntest_user_credit_never_releases_a_replacement_lock (test_manual_batch_control.ManualBatchControlTests) ... ok\ntest_user_credit_rejects_missing_authorization_and_wrong_identity (test_manual_batch_control.ManualBatchControlTests) ... ok\ntest_user_credit_uses_original_duration_and_rejects_other_interruptions (test_manual_batch_control.ManualBatchControlTests) ... ok\n\n----------------------------------------------------------------------\nRan 41 tests in 0.660s\n\nOK\n",
+      "stdout_json_lines": 211
+    },
+    {
+      "command": [
+        "python3",
+        "examples/synthetic-control/smoke_demo.py"
+      ],
+      "returncode": 0,
+      "stdout": "{\n  \"demo\": \"synthetic-controller\",\n  \"passed\": true,\n  \"decisions\": [\n    \"INITIALIZED\",\n    \"START\",\n    \"HEARTBEAT\",\n    \"EXIT\",\n    \"ABORTED_NONCOUNTED\"\n  ],\n  \"competing_claim_reason\": \"lock-busy\",\n  \"completed_occurrences\": 0,\n  \"lock_exists_after_abort\": false,\n  \"real_automations_accessed\": false\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python3",
+        "tools/manual_batch_control.py",
+        "--help"
+      ],
+      "returncode": 0,
+      "help_first_line": "usage: manual_batch_control.py [-h] --automation-id",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python3",
+        "tools/source_window.py",
+        "--help"
+      ],
+      "returncode": 0,
+      "help_first_line": "usage: source_window.py [-h] {doctor,prepare,excerpt} ...",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python3",
+        "tools/check_obsidian_math.py",
+        "--help"
+      ],
+      "returncode": 0,
+      "help_first_line": "usage: check_obsidian_math.py [-h] [--limit LIMIT] [root]",
+      "stderr": ""
+    }
+  ]
+}
